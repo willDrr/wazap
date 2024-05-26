@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wazap</title> 
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Ingrese número de WhatsApp</h2>
+    <div>
+      <div id="input-container">
+        <input type="text" id="whatsappNumber" placeholder="Ingrese solo números, sin espacios">
+        <div id="tooltip" class="tooltip">Solo se permiten números</div>
+      </div>
+      <button id="submitButton">Buscar</button>
+      <button id="closeButton">Cerrar</button>
+    </div>
+  </div>
+
+  <div id="customAlert">
+    <p>Asegurese de que WhatsApp Web este disponible.</p>
+    <button id="customAlertButton">OK</button>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

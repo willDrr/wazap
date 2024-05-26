@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "wazap",
+  "description": "Buscador de wazaps",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+   "permissions": [
+    "tabs",
+    "windows",
+    "activeTab",
+    "scripting"
+  ]
+}
