@@ -9,8 +9,6 @@
   },
    "permissions": [
     "tabs",
-    "windows",
-    "activeTab",
-    "scripting"
+    "windows"
   ]
 }
